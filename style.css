@@ -720,3 +720,209 @@ img {
     bottom: 0%;
     position: absolute;
 }
+
+/* FOR RESPONSIVE */
+/* ========== RESPONSIVE STYLES ========== */
+
+/* Small laptops / tablets */
+@media screen and (max-width: 1024px) {
+    .container, .section-3-container, .projects-section .project-container, .section-4-content, .footer-content {
+        width: 90%;
+    }
+
+    .hero-section {
+        flex-direction: column;
+        gap: 2rem;
+        margin-bottom: 4rem;
+    }
+
+    .hero-section-left, .hero-section-right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-description {
+        width: 100%;
+    }
+
+    .hero-section-right .user-image img {
+        width: 280px;
+        height: 250px;
+    }
+
+    .projects-section .project-card {
+        width: 100%;
+        height: 450px;
+    }
+
+    .project-content-left, .project-content-right {
+        left: 5%;
+        right: 5%;
+        bottom: 10%;
+    }
+
+    .project-heading {
+        font-size: 35px;
+    }
+
+    .projects-heading {
+        font-size: 60px;
+    }
+
+    .skills-logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .skill-detail h2 {
+        font-size: 36px;
+    }
+
+    .skill-detail h2 span {
+        font-size: 60px;
+    }
+
+    .form-content input, .message {
+        width: 100%;
+    }
+
+    .sec-4-heading h1 {
+        font-size: 60px;
+    }
+    .sec-4-heading h2 {
+        font-size: 36px;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 768px) {
+    .hero-section {
+        margin: 2rem auto;
+        padding-bottom: 2rem;
+    }
+
+    .hero-section-left .hero-section-heading {
+        font-size: 28px;
+    }
+
+    .left-sub-heading {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .faded-text, .skill-fade-text {
+        font-size: 4rem;
+    }
+
+    .projects-heading {
+        font-size: 40px;
+    }
+
+    .project-content-left, .project-content-right {
+        bottom: 5%;
+    }
+
+    .project-heading {
+        font-size: 28px;
+    }
+
+    .skills-logo {
+        width: 60px;
+        height: 60px;
+    }
+
+    .section-3-container {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .skill-detail {
+        width: 100%;
+        text-align: center;
+    }
+
+    .skill-icon-container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .section-4 {
+        padding: 2rem 1rem;
+    }
+
+    .sec-4-heading h1 {
+        font-size: 50px;
+    }
+
+    .sec-4-heading h2 {
+        font-size: 28px;
+    }
+
+    .message-btn {
+        width: 100%;
+        height: 50px;
+    }
+
+    .message-btn button {
+        font-size: large;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer-faded-text {
+        font-size: 30px;
+        bottom: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+/* Very small phones */
+@media screen and (max-width: 480px) {
+    .hero-section-left .hero-section-heading {
+        font-size: 24px;
+    }
+
+    .left-sub-heading {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .projects-heading {
+        font-size: 32px;
+    }
+
+    .project-heading {
+        font-size: 24px;
+    }
+
+    .skills-logo {
+        width: 50px;
+        height: 50px;
+    }
+
+    .skill-detail h2 {
+        font-size: 28px;
+    }
+
+    .skill-detail h2 span {
+        font-size: 45px;
+    }
+
+    .form-content input, .message {
+        font-size: 16px;
+    }
+
+    .sec-4-heading h1 {
+        font-size: 40px;
+    }
+
+    .sec-4-heading h2 {
+        font-size: 24px;
+    }
+}
+
